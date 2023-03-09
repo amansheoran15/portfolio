@@ -1,0 +1,404 @@
+@media only screen and (max-width: 600px) {
+  #navbarNav {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /*Home Section*/
+  #home {
+    margin: 2rem auto;
+    height: fit-content;
+    flex-direction: column-reverse;
+  }
+
+  #home-text {
+    width: 100%;
+    height: fit-content;
+  }
+
+  #sm-icons {
+    margin-right: 25px;
+  }
+
+  #sm-icons i {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+
+  #introduction {
+    width: 100%;
+  }
+
+  #introduction p {
+    font-size: 1.3rem;
+    margin-bottom: 3px;
+  }
+
+  #introduction hr {
+    width: 90%;
+  }
+
+  #home-photo {
+    width: 100%;
+    text-align: center;
+    min-height: 100%;
+  }
+
+  #home-photo img {
+    width: 90%;
+    margin: auto;
+  }
+
+  #down-arrow {
+    margin-right: 1.5rem;
+    position: unset;
+    top: 3rem;
+  }
+
+  #down-arrow i {
+    color: whitesmoke;
+    font-size: 2.5rem;
+  }
+
+  #sec-down-arrow {
+    margin-top: -1rem;
+  }
+
+  /*About section*/
+  #about {
+    width: 90%;
+    margin: 2rem auto;
+    height: fit-content;
+  }
+
+  #about-title #about-me {
+    font-size: 2rem;
+  }
+
+  #about-title #welcome {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  #about-content {
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid white;*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content-title {
+    font-size: 1.5rem;
+  }
+
+  #about-content-left {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .about-content-left-child {
+    border-radius: 10px;
+  }
+
+  .about-content-content {
+    font-size: 1rem;
+  }
+
+  .education-sub {
+    font-size: 1rem;
+  }
+
+  #about-content-right {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .about-content-right-child {
+    border-radius: 10px;
+  }
+
+  #about-me-content {
+    padding: 15px;
+  }
+
+  #about-content-right-second {
+    width: 80%;
+  }
+
+  .horizontal-line {
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 0%;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  /*Experience Section*/
+  #experience {
+    width: 90%;
+    height: fit-content;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #exp-left {
+    width: 100%;
+    /*border: 5px solid violet;*/
+  }
+
+  #exp-title-in {
+    font-size: 2rem;
+  }
+
+  #exp-quote {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  #exp-right {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .exp-right-child {
+    min-height: 100%;
+    margin: 20px auto;
+  }
+
+  .exp-right-child-title {
+    font-size: 1.4rem;
+  }
+
+  .exp-sub-title {
+    margin-top: -3px;
+    font-size: 1rem;
+  }
+
+  .exp-content {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  /*Projects Section*/
+  #project {
+    width: 100%;
+    margin: 2rem auto;
+    height: fit-content;
+  }
+
+  #prj-title-in {
+    font-size: 2rem;
+  }
+
+  #prj-quote {
+    font-size: 1.2rem;
+    margin-top: -1rem;
+    font-weight: 500;
+  }
+
+  #prj-bottom {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .prj-bottom-div {
+    margin: 10px;
+    border-radius: 2px;
+  }
+
+  .prj-bottom-div img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  #project-horizontal-line {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #project-vertical-line {
+    display: none;
+  }
+
+  /*Skills Section*/
+  #skill {
+    width: 90%;
+    margin: 2rem auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #skill-title-in {
+    font-size: 2rem;
+  }
+
+  #skill-quote {
+    font-size: 1.2rem;
+    margin-top: -1rem;
+    font-weight: 500;
+  }
+
+  #skill-bottom {
+    height: 100%;
+    justify-content: center;
+  }
+
+  .skill-indicator {
+    width: 100%;
+    height: 100%;
+    background-color: #131c3e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  #skills-indicators-section {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .skill-indicator {
+    height: 50px;
+    margin: 20px 50px;
+  }
+
+  #CPP,
+  #HTML,
+  #CSS,
+  #JavaScript,
+  #java,
+  #ML,
+  #php {
+    font-size: 1.2rem;
+  }
+
+  /*Certifications and Involvement Section*/
+  #cert {
+    width: 100%;
+    margin: 1rem auto;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #cert-title-in {
+    font-size: 1.6rem;
+  }
+
+  #cert-quote {
+    font-size: 1rem;
+    margin-top: -1rem;
+    font-weight: 500;
+  }
+
+  #certification {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .cert-titles {
+    width: 40%;
+    font-size: 2rem;
+    color: #b9485c;
+  }
+
+  .cert-content {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  .cert-content li {
+    margin-bottom: 1.5rem;
+  }
+
+  #contact-horizontal-line {
+    width: 90%;
+    height: 0rem;
+    margin-left: 0%;
+  }
+
+  #contact-vertical-line {
+    display: none;
+  }
+
+  #involvement {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  /*Contact Section*/
+  #contact-div {
+    border-radius: 20px;
+    margin: 1rem;
+  }
+
+  #contact-title {
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  #contact-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contact-content #contact-content-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact-content #contact-content-image img {
+    width: 50%;
+  }
+
+  #contact-content-details {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #contact-content-details form {
+    font-size: 1.2rem;
+  }
+
+  #message {
+    height: 150px;
+  }
+
+  /*Footer*/
+  #footer-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #copyright {
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+
+  #social-icons {
+    display: unset;
+  }
+
+  #social-icons ul li {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
