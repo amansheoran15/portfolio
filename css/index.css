@@ -315,6 +315,16 @@ body{
         margin-bottom: 2vw;
     }
 }
+@media screen and (max-width: 1000px){
+    #about-horizontal-line{
+        margin-top: 28%;
+        margin-right: -50%;
+    }
+    #about-vertical-line{
+        margin-right: -43%;
+        MARGIN-TOP: 50%;
+    }
+}
 /*@media screen and (max-width: 600px){*/
 /*    #about-content{*/
 /*        height: 100%;*/
@@ -398,11 +408,32 @@ body{
     }
 }
 @media screen and (max-width: 1000px){
-    .exp-right-child-title{
-        font-size: 1.75rem;
-    }
+    /*.exp-right-child-title{*/
+    /*    font-size: 1.75rem;*/
+    /*}*/
     .exp-content{
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+    #experience{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    #exp-left{
+        width: unset;
+    }
+    #exp-title-in{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #exp-quote{
+        display: flex;
+        justify-content: center;
+    }
+    #exp-right{
+        width: 70%;
     }
 }
 
@@ -520,6 +551,19 @@ body{
 @media screen and (max-width: 1400px) and (min-width: 1000px){
     #project-vertical-line{
         height: 5%;
+    }
+}
+@media screen and (max-width: 1000px){
+    #project-vertical-line{
+        height: 5%;
+    }
+    #project-horizontal-line{
+        height: 20vw;
+        width: unset;
+        border-bottom: none;
+    }
+    #project{
+        margin: 2rem auto;
     }
 }
 
