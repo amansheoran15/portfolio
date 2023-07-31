@@ -26,12 +26,14 @@ body{
     padding: 0 1rem;
 }
 
+
+
 /*Home Section*/
 
 #home{
     width: 90%;
     margin: 5rem auto;
-    height: 40vw;
+    /*min-height: 40vw;*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -82,7 +84,8 @@ body{
 #home-photo{
     /*border: 1px solid white;*/
     min-width: 40%;
-    min-height: 50%;
+    height: 39vw;
+    /*max-height: 51%;*/
 }
 
 #home-photo img{
@@ -97,6 +100,7 @@ body{
     align-items: center;
     position: relative;
     top: 6rem;
+    margin-bottom: 4vw;
 }
 
 #down-arrow i{
@@ -109,6 +113,45 @@ body{
     margin-top: -1rem;
 }
 
+@media screen and (max-width: 1250px){
+    #introduction p{
+        font-size: 3.5rem;
+        color: whitesmoke;
+    }
+}
+@media screen and (max-width: 1090px){
+    #introduction p{
+        font-size: 3rem;
+        color: whitesmoke;
+    }
+}
+@media screen and (max-width: 1000px){
+    #home{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    #home-text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /*border: 1px solid white;*/
+        min-width: 90vw;
+        min-height: 50%;
+        /*margin-top: 5vw;*/
+    }
+    #home-photo{
+        min-height: 50vw;
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+}
+
 /*About section*/
 
 .section-title{
@@ -119,7 +162,7 @@ body{
 #about{
     width: 90%;
     margin: 5rem auto;
-    height: 45vw;
+    /*height: 45vw;*/
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -161,6 +204,7 @@ body{
     color: #48B997;
     margin-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -230,7 +274,7 @@ body{
 
 .horizontal-line{
     width: 43%;
-    height: 21%;
+    height: 10vw;
     border: 5px solid white;
     border-left: none;
     border-top: none;
@@ -240,13 +284,51 @@ body{
 
 .vertical-line{
     width: 43%;
-    height: 25%;
+    height: 15vw;
     border: 5px solid white;
     border-right: none;
     border-top: none;
     border-bottom: none;
     margin-right: 50%;
 }
+
+/*@media screen and (max-width: 1500px){*/
+/*    .vertical-line{*/
+/*        height: 5vw;*/
+/*    }*/
+/*}*/
+@media screen and (max-width: 1415px){
+    .about-content-content{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .about-content-left-child{
+        min-height: 60%;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #about-title{
+        margin-bottom: 2vw;
+    }
+}
+/*@media screen and (max-width: 600px){*/
+/*    #about-content{*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        !*border: 1px solid white;*!*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        flex-wrap: nowrap;*/
+/*    }*/
+/*    #about-content-left{*/
+/*        width: 90%;*/
+/*    }*/
+/*}*/
+
 
 /*Experience Section*/
 
