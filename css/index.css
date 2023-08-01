@@ -50,6 +50,9 @@ body{
     .nav-item a{
         font-size: 2.25rem;
     }
+    #navbarSupportedContent{
+        background-color: #05081C !important;
+    }
 }
 
 /*Home Section*/
